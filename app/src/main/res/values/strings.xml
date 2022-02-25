@@ -1,0 +1,112 @@
+<resources>
+    <string name="app_name">Devanagari Script</string>
+    <string name="vowels">Vowels</string>
+    <string name="consonants">Consonants</string>
+    <string name="devanagari_to_roman">Devanagari to Roman</string>
+    <string name="roman_to_devanagari">Roman to Devanagari</string>
+    <string name="remaining">Remaining: %1$d</string>
+    <string name="errors">Errors: %1$d</string>
+
+    <string name="a">a</string>
+    <string name="ā">ā</string>
+    <string name="i">i</string>
+    <string name="ī">ī</string>
+    <string name="u">u</string>
+    <string name="ū">ū</string>
+    <string name="ṛ">ṛ</string>
+    <string name="ṝ">ṝ</string>
+    <string name="ḷ">ḷ</string>
+    <string name="ḹ">ḹ</string>
+    <string name="e">e</string>
+    <string name="o">o</string>
+    <string name="ai">ai</string>
+    <string name="au">au</string>
+    <string name="अ">अ</string>
+    <string name="आ">आ</string>
+    <string name="इ">इ</string>
+    <string name="ई">ई</string>
+    <string name="उ">उ</string>
+    <string name="ऊ">ऊ</string>
+    <string name="ऋ">ऋ</string>
+    <string name="ॠ">ॠ</string>
+    <string name="ऌ">ऌ</string>
+    <string name="ॡ">ॡ</string>
+    <string name="ए">ए</string>
+    <string name="ऐ">ऐ</string>
+    <string name="ओ">ओ</string>
+    <string name="औ">औ</string>
+
+    <string name="ka">ka</string>
+    <string name="kha">kha</string>
+    <string name="ga">ga</string>
+    <string name="gha">gha</string>
+    <string name="nga">nga</string>
+    <string name="क">क</string>
+    <string name="ख">ख</string>
+    <string name="ग">ग</string>
+    <string name="घ">घ</string>
+    <string name="ङ">ङ</string>
+
+    <string name="ca">ca</string>
+    <string name="cha">cha</string>
+    <string name="ja">ja</string>
+    <string name="jha">jha</string>
+    <string name="ña">ña</string>
+    <string name="च">च</string>
+    <string name="छ">छ</string>
+    <string name="ज">ज</string>
+    <string name="झ">झ</string>
+    <string name="ञ">ञ</string>
+
+    <string name="ṭa">ṭa</string>
+    <string name="ṭha">ṭha</string>
+    <string name="ḍa">ḍa</string>
+    <string name="ḍha">ḍha</string>
+    <string name="ṇa">ṇa</string>
+    <string name="ट">ट</string>
+    <string name="ठ">ठ</string>
+    <string name="ड">ड</string>
+    <string name="ढ">ढ</string>
+    <string name="ण">ण</string>
+
+    <string name="ta">ta</string>
+    <string name="tha">tha</string>
+    <string name="da">da</string>
+    <string name="dha">dha</string>
+    <string name="na">na</string>
+    <string name="त">त</string>
+    <string name="थ">थ</string>
+    <string name="द">द</string>
+    <string name="ध">ध</string>
+    <string name="न">न</string>
+
+    <string name="pa">pa</string>
+    <string name="pha">pha</string>
+    <string name="ba">ba</string>
+    <string name="bha">bha</string>
+    <string name="ma">ma</string>
+    <string name="प">प</string>
+    <string name="फ">फ</string>
+    <string name="ब">ब</string>
+    <string name="भ">भ</string>
+    <string name="म">म</string>
+
+    <string name="ya">ya</string>
+    <string name="ra">ra</string>
+    <string name="la">la</string>
+    <string name="va">va</string>
+    <string name="य">य</string>
+    <string name="र">र</string>
+    <string name="ल">ल</string>
+    <string name="व">व</string>
+
+    <string name="śa">śa</string>
+    <string name="ṣa">ṣa</string>
+    <string name="sa">sa</string>
+    <string name="ha">ha</string>
+    <string name="श">श</string>
+    <string name="ष">ष</string>
+    <string name="स">स</string>
+    <string name="ह">ह</string>
+
+</resources>

@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    tools:context=".ConsonantsRomanToDevanagariActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/tvDisplayChar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="60sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="ka" />
+
+        <TextView
+            android:id="@+id/tvRemaining"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/remaining"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvErrors"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/errors"
+            android:textAlignment="center"
+            android:textColor="@color/red"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvRemaining" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout style="@style/btnRow">
+
+        <Button
+            android:id="@+id/btnKa"
+            style="@style/btnCharDevanagari"
+            android:text="@string/क" />
+
+        <Button
+            android:id="@+id/btnKha"
+            style="@style/btnCharDevanagari"
+            android:text="@string/ख" />
+
+        <Button
+            android:id="@+id/btnGa"
+            style="@style/btnCharDevanagari"
+            android:text="@string/ग" />
+
+        <Button
+            android:id="@+id/btnGha"
+            style="@style/btnCharDevanagari"
+            android:text="@string/घ" />
+
+        <Button
+            android:id="@+id/btnNga"
+            style="@style/btnCharDevanagari"
+            android:text="@string/ङ" />
+
+    </LinearLayout>
+
+    <LinearLayout style="@style/btnRow">
+
+        <Button
+            android:id="@+id/btnCa"
+            style="@style/btnCharDevanagari"
+            android:text="@string/च" />
+
+        <Button
+            android:id="@+id/btnCha"
+            style="@style/btnCharDevanagari"
+            android:text="@string/छ" />
+
+        <Button
+            android:id="@+id/btnJa"
+            style="@style/btnCharDevanagari"
+            android:text="@string/ज" />
+
+        <Button
+            android:id="@+id/btnJha"
+            style="@style/btnCharDevanagari"
+            android:text="@string/झ" />
+
+        <Button
+            android:id="@+id/btnNaPalatal"
+            style="@style/btnCharDevanagari"
+            android:text="@string/ञ" />
+
+    </LinearLayout>
+
+    <LinearLayout style="@style/btnRow">
+
+        <Button
+            android:id="@+id/btnTaRetro"
+            style="@style/btnCharDevanagari"
+            android:text="@string/ट" />
+
+        <Button
+            android:id="@+id/btnThaRetro"
+            style="@style/btnCharDevanagari"
+            android:text="@string/ठ" />
+
+        <Button
+            android:id="@+id/btnDaRetro"
+            style="@style/btnCharDevanagari"
+            android:text="@string/ड" />
+
+        <Button
+            android:id="@+id/btnDhaRetro"
+            style="@style/btnCharDevanagari"
+            android:text="@string/ढ" />
+
+        <Button
+            android:id="@+id/btnNRetro"
+            style="@style/btnCharDevanagari"
+            android:text="@string/ण" />
+
+    </LinearLayout>
+
+    <LinearLayout style="@style/btnRow">
+
+        <Button
+            android:id="@+id/btnTa"
+            style="@style/btnCharDevanagari"
+            android:text="@string/त" />
+
+        <Button
+            android:id="@+id/btnTha"
+            style="@style/btnCharDevanagari"
+            android:text="@string/थ" />
+
+        <Button
+            android:id="@+id/btnDa"
+            style="@style/btnCharDevanagari"
+            android:text="@string/द" />
+
+        <Button
+            android:id="@+id/btnDha"
+            style="@style/btnCharDevanagari"
+            android:text="@string/ध" />
+
+        <Button
+            android:id="@+id/btnNa"
+            style="@style/btnCharDevanagari"
+            android:text="@string/न" />
+
+    </LinearLayout>
+
+    <LinearLayout style="@style/btnRow">
+
+        <Button
+            android:id="@+id/btnPa"
+            style="@style/btnCharDevanagari"
+            android:text="@string/प" />
+
+        <Button
+            android:id="@+id/btnPha"
+            style="@style/btnCharDevanagari"
+            android:text="@string/फ" />
+
+        <Button
+            android:id="@+id/btnBa"
+            style="@style/btnCharDevanagari"
+            android:text="@string/ब" />
+
+        <Button
+            android:id="@+id/btnBha"
+            style="@style/btnCharDevanagari"
+            android:text="@string/भ" />
+
+        <Button
+            android:id="@+id/btnMa"
+            style="@style/btnCharDevanagari"
+            android:text="@string/म" />
+
+    </LinearLayout>
+
+    <LinearLayout style="@style/btnRow">
+
+        <Button
+            android:id="@+id/btnYa"
+            style="@style/btnCharDevanagari"
+            android:text="@string/य" />
+
+        <Button
+            android:id="@+id/btnRa"
+            style="@style/btnCharDevanagari"
+            android:text="@string/र" />
+
+        <Button
+            android:id="@+id/btnLa"
+            style="@style/btnCharDevanagari"
+            android:text="@string/ल" />
+
+        <Button
+            android:id="@+id/btnVa"
+            style="@style/btnCharDevanagari"
+            android:text="@string/व" />
+
+    </LinearLayout>
+
+    <LinearLayout style="@style/btnRow">
+
+        <Button
+            android:id="@+id/btnSaPalatal"
+            style="@style/btnCharDevanagari"
+            android:text="@string/श" />
+
+        <Button
+            android:id="@+id/btnSaRetro"
+            style="@style/btnCharDevanagari"
+            android:text="@string/ष" />
+
+        <Button
+            android:id="@+id/btnSa"
+            style="@style/btnCharDevanagari"
+            android:text="@string/स" />
+
+        <Button
+            android:id="@+id/btnHa"
+            style="@style/btnCharDevanagari"
+            android:text="@string/ह" />
+
+    </LinearLayout>
+
+</LinearLayout>

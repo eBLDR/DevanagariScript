@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout style="@style/btnRow">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/vowels"
+            android:textAlignment="center"
+            android:textSize="36sp" />
+
+    </LinearLayout>
+
+    <LinearLayout style="@style/btnRow">
+
+        <Button
+            android:id="@+id/btnVowelsDevanagariToRoman"
+            style="@style/btnMenu"
+            android:text="@string/devanagari_to_roman" />
+
+    </LinearLayout>
+
+    <LinearLayout style="@style/btnRow">
+
+        <Button
+            android:id="@+id/btnVowelsRomanToDevanagari"
+            style="@style/btnMenu"
+            android:text="@string/roman_to_devanagari" />
+
+    </LinearLayout>
+
+    <LinearLayout style="@style/btnRow">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/consonants"
+            android:textAlignment="center"
+            android:textSize="36sp" />
+
+    </LinearLayout>
+
+    <LinearLayout style="@style/btnRow">
+
+        <Button
+            android:id="@+id/btnConsonantsDevanagariToRoman"
+            style="@style/btnMenu"
+            android:text="@string/devanagari_to_roman" />
+
+    </LinearLayout>
+
+    <LinearLayout style="@style/btnRow">
+
+        <Button
+            android:id="@+id/btnConsonantsRomanToDevanagari"
+            style="@style/btnMenu"
+            android:text="@string/roman_to_devanagari" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    tools:context=".ConsonantsDevanagariToRomanActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/tvDisplayChar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="60sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="क" />
+
+        <TextView
+            android:id="@+id/tvRemaining"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/remaining"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvErrors"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/errors"
+            android:textAlignment="center"
+            android:textColor="@color/red"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvRemaining" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout style="@style/btnRow">
+
+        <Button
+            android:id="@+id/btnKa"
+            style="@style/btnCharRoman"
+            android:text="@string/ka" />
+
+        <Button
+            android:id="@+id/btnKha"
+            style="@style/btnCharRoman"
+            android:text="@string/kha" />
+
+        <Button
+            android:id="@+id/btnGa"
+            style="@style/btnCharRoman"
+            android:text="@string/ga" />
+
+        <Button
+            android:id="@+id/btnGha"
+            style="@style/btnCharRoman"
+            android:text="@string/gha" />
+
+        <Button
+            android:id="@+id/btnNga"
+            style="@style/btnCharRoman"
+            android:text="@string/nga" />
+
+    </LinearLayout>
+
+    <LinearLayout style="@style/btnRow">
+
+        <Button
+            android:id="@+id/btnCa"
+            style="@style/btnCharRoman"
+            android:text="@string/ca" />
+
+        <Button
+            android:id="@+id/btnCha"
+            style="@style/btnCharRoman"
+            android:text="@string/cha" />
+
+        <Button
+            android:id="@+id/btnJa"
+            style="@style/btnCharRoman"
+            android:text="@string/ja" />
+
+        <Button
+            android:id="@+id/btnJha"
+            style="@style/btnCharRoman"
+            android:text="@string/jha" />
+
+        <Button
+            android:id="@+id/btnNaPalatal"
+            style="@style/btnCharRoman"
+            android:text="@string/ña" />
+
+    </LinearLayout>
+
+    <LinearLayout style="@style/btnRow">
+
+        <Button
+            android:id="@+id/btnTaRetro"
+            style="@style/btnCharRoman"
+            android:text="@string/ṭa" />
+
+        <Button
+            android:id="@+id/btnThaRetro"
+            style="@style/btnCharRoman"
+            android:text="@string/ṭha" />
+
+        <Button
+            android:id="@+id/btnDaRetro"
+            style="@style/btnCharRoman"
+            android:text="@string/ḍa" />
+
+        <Button
+            android:id="@+id/btnDhaRetro"
+            style="@style/btnCharRoman"
+            android:text="@string/ḍha" />
+
+        <Button
+            android:id="@+id/btnNRetro"
+            style="@style/btnCharRoman"
+            android:text="@string/ṇa" />
+
+    </LinearLayout>
+
+    <LinearLayout style="@style/btnRow">
+
+        <Button
+            android:id="@+id/btnTa"
+            style="@style/btnCharRoman"
+            android:text="@string/ta" />
+
+        <Button
+            android:id="@+id/btnTha"
+            style="@style/btnCharRoman"
+            android:text="@string/tha" />
+
+        <Button
+            android:id="@+id/btnDa"
+            style="@style/btnCharRoman"
+            android:text="@string/da" />
+
+        <Button
+            android:id="@+id/btnDha"
+            style="@style/btnCharRoman"
+            android:text="@string/dha" />
+
+        <Button
+            android:id="@+id/btnNa"
+            style="@style/btnCharRoman"
+            android:text="@string/na" />
+
+    </LinearLayout>
+
+    <LinearLayout style="@style/btnRow">
+
+        <Button
+            android:id="@+id/btnPa"
+            style="@style/btnCharRoman"
+            android:text="@string/pa" />
+
+        <Button
+            android:id="@+id/btnPha"
+            style="@style/btnCharRoman"
+            android:text="@string/pha" />
+
+        <Button
+            android:id="@+id/btnBa"
+            style="@style/btnCharRoman"
+            android:text="@string/ba" />
+
+        <Button
+            android:id="@+id/btnBha"
+            style="@style/btnCharRoman"
+            android:text="@string/bha" />
+
+        <Button
+            android:id="@+id/btnMa"
+            style="@style/btnCharRoman"
+            android:text="@string/ma" />
+
+    </LinearLayout>
+
+    <LinearLayout style="@style/btnRow">
+
+        <Button
+            android:id="@+id/btnYa"
+            style="@style/btnCharRoman"
+            android:text="@string/ya" />
+
+        <Button
+            android:id="@+id/btnRa"
+            style="@style/btnCharRoman"
+            android:text="@string/ra" />
+
+        <Button
+            android:id="@+id/btnLa"
+            style="@style/btnCharRoman"
+            android:text="@string/la" />
+
+        <Button
+            android:id="@+id/btnVa"
+            style="@style/btnCharRoman"
+            android:text="@string/va" />
+
+    </LinearLayout>
+
+    <LinearLayout style="@style/btnRow">
+
+        <Button
+            android:id="@+id/btnSaPalatal"
+            style="@style/btnCharRoman"
+            android:text="@string/śa" />
+
+        <Button
+            android:id="@+id/btnSaRetro"
+            style="@style/btnCharRoman"
+            android:text="@string/ṣa" />
+
+        <Button
+            android:id="@+id/btnSa"
+            style="@style/btnCharRoman"
+            android:text="@string/sa" />
+
+        <Button
+            android:id="@+id/btnHa"
+            style="@style/btnCharRoman"
+            android:text="@string/ha" />
+
+    </LinearLayout>
+
+</LinearLayout>
