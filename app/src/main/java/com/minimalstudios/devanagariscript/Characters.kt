@@ -12,8 +12,8 @@ val mapVowelRomanToDevanagari = mapOf(
     "ḷ" to "ऌ",
     "ḹ" to "ॡ",
     "e" to "ए",
-    "o" to "ऐ",
-    "ai" to "ओ",
+    "ai" to "ऐ",
+    "o" to "ओ",
     "au" to "औ",
 )
 
@@ -45,6 +45,14 @@ val mapConsonantRomanToDevanagari = mapOf(
     "ba" to "ब",
     "bha" to "भ",
     "ma" to "म",
+    "ya" to "य",
+    "ra" to "र",
+    "la" to "ल",
+    "va" to "व",
+    "śa" to "श",
+    "ṣa" to "ष",
+    "sa" to "स",
+    "ha" to "ह",
 )
 
 val mapConsonantDevanagariToRoman =
