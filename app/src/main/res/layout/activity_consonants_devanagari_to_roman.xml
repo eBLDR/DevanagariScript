@@ -76,7 +76,7 @@
         <Button
             android:id="@+id/btnNga"
             style="@style/btnCharRoman"
-            android:text="@string/nga" />
+            android:text="@string/ṅa" />
 
     </LinearLayout>
 

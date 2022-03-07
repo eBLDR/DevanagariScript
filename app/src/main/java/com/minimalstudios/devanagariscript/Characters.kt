@@ -24,7 +24,7 @@ val mapConsonantRomanToDevanagari = mapOf(
     "kha" to "ख",
     "ga" to "ग",
     "gha" to "घ",
-    "nga" to "ङ",
+    "ṅa" to "ङ",
     "ca" to "च",
     "cha" to "छ",
     "ja" to "ज",
@@ -58,11 +58,44 @@ val mapConsonantRomanToDevanagari = mapOf(
 val mapConsonantDevanagariToRoman =
     mapConsonantRomanToDevanagari.entries.associate { (k, v) -> v to k }
 
-val vowelsRoman = mapVowelRomanToDevanagari.keys
-val vowelsDevanagari = mapVowelDevanagariToRoman.keys
+val mapSyllableRomanToDevanagari = mapOf(
+    "ka" to "क",
+    "kā" to "का",
+    "ki" to "कि",
+    "kī" to "की",
+    "ku" to "कु",
+    "kū" to "कू",
+    "kṛ" to "कृ",
+    "kṝ" to "कॄ",
+    "kḷ" to "कॢ",
+    "kḹ" to "कॣ",
+    "ke" to "के",
+    "kai" to "कै",
+    "ko" to "को",
+    "kau" to "कौ",
+    "kaḥ" to "कः",
+    "kaṃ" to "कं",
+    "k" to "क्",
+)
 
-val consonantsRoman = mapConsonantRomanToDevanagari.keys
-val consonantsDevanagari = mapConsonantDevanagariToRoman.keys
+val mapSyllableDevanagariToRoman =
+    mapSyllableRomanToDevanagari.entries.associate { (k, v) -> v to k }
 
-val allRoman = vowelsRoman + consonantsRoman
-val allDevanagari = consonantsRoman + consonantsDevanagari
+val mapNumeralsRomanToDevanagari = mapOf(
+    "0" to "०",
+    "1" to "१",
+    "2" to "२",
+    "3" to "३",
+    "4" to "४",
+    "5" to "५",
+    "6" to "६",
+    "7" to "७",
+    "8" to "८",
+    "9" to "९",
+)
+
+val mapNumeralsDevanagariToRoman =
+    mapNumeralsRomanToDevanagari.entries.associate { (k, v) -> v to k }
+
+val mapAllRomanToDevanagari = mapVowelRomanToDevanagari + mapConsonantRomanToDevanagari
+val mapAllDevanagariToRoman = mapVowelDevanagariToRoman + mapConsonantDevanagariToRoman
