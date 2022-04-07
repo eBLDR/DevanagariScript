@@ -2,6 +2,7 @@ package com.minimalstudios.devanagariscript
 
 import android.os.Bundle
 import android.widget.Button
+import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
 
@@ -46,11 +47,12 @@ abstract class BaseCharacterLogicActivity : AppCompatActivity() {
 
     abstract fun displayUI()
 
-    fun assessUserInput(btn: Button) {
+    fun assessUserInput(btn: Button, tvErrors: TextView) {
         if (btn.text != characterResult) {
             btn.setTextColor(ContextCompat.getColor(this, R.color.red))
             errorButtons.add(btn)
             errors++
+            tvErrors.text = getString(R.string.errors, errors)
         } else {
             correct++
             characterSetToDisplay.remove(characterToDisplay)

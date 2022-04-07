@@ -24,7 +24,7 @@ class ConsonantsRomanToDevanagariActivity : BaseCharacterLogicActivity() {
             binding.btnYa, binding.btnRa, binding.btnLa, binding.btnVa,
             binding.btnSaPalatal, binding.btnSaRetro, binding.btnSa, binding.btnHa,
         )) {
-            btn.setOnClickListener { assessUserInput(btn) }
+            btn.setOnClickListener { assessUserInput(btn, binding.tvErrors) }
         }
 
         prepareRound()

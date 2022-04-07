@@ -23,7 +23,7 @@ class VowelsRomanToDevanagariActivity : BaseCharacterLogicActivity() {
             binding.btnE, binding.btnAI,
             binding.btnO, binding.btnAU,
         )) {
-            btn.setOnClickListener { assessUserInput(btn) }
+            btn.setOnClickListener { assessUserInput(btn, binding.tvErrors) }
         }
 
         prepareRound()
